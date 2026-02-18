@@ -1,11 +1,11 @@
 package JAVA_TEST_3;
 
-public class Books {
+public class Book {
     private String isbn;
    private String title;
     private boolean isAvailable;
 
-    public Books(String isbn, String title, boolean isAvailable) {
+    public Book(String isbn, String title, boolean isAvailable) {
         this.isbn = isbn;
         this.title = title;
         this.isAvailable = isAvailable;
